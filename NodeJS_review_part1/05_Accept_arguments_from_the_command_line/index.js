@@ -4,7 +4,7 @@
  * 2: path đang thực thi 
  * 3: đối số nhập vào
  */
-console.log("1--------------1---------------\n\n");
+console.log("--------------1---------------\n\n");
 process.argv.forEach((val, index) => {
     console.log(`${index}: ${val}`)
 })
